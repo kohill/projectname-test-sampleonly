@@ -39,8 +39,17 @@
             <groupId>com.healthedge.commons</groupId>
             <artifactId>properties-util</artifactId>
             <scope>system</scope>
-            <systemPath>C:\HealthEdge\healthedge-test\src\main\resources\properties-util-1.0.0.0-SNAPSHOT.jar</systemPath>
+            <!--Not recommended to hard code path, sample-->
+            <systemPath>C:\props\properties-util-1.0.0.0-SNAPSHOT.jar</systemPath>
             <version>${properties.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.healthedge.commons</groupId>
+            <artifactId>pagedriver-util</artifactId>
+            <scope>system</scope>
+            <!--Not recommended to hard code path, sample-->
+            <systemPath>C:\props\pagedriver-util-4.24.0.0-SNAPSHOT.jar</systemPath>
+            <version>${pagedriver.test.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -84,13 +93,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.healthedge.commons</groupId>
-            <artifactId>pagedriver-util</artifactId>
-            <scope>system</scope>
-            <systemPath>C:\HealthEdge\healthedge-test\src\main\resources\pagedriver-util-4.24.0.0-SNAPSHOT.jar</systemPath>
-            <version>${pagedriver.test.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>3.25.3</version>
@@ -99,11 +101,6 @@
             <groupId>org.skyscreamer</groupId>
             <artifactId>jsonassert</artifactId>
             <version>1.5.1</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>5.8.0</version>
         </dependency>
         <dependency>
             <groupId>com.aventstack</groupId>
