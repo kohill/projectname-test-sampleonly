@@ -1,0 +1,79 @@
+users:
+  - user: QA
+    username: 'qa'
+    password: 'qa'
+
+  - user: A30
+    username: 'qa_roles'
+    groups: 'A30'
+    uwAuthLevel: '00'
+    billingAuthLevel: ''
+    password: 'qa_roles'
+
+  - user: B31
+    username: 'qa_roles'
+    groups: 'B31'
+    uwAuthLevel: '00'
+    billingAuthLevel: ''
+    password: 'qa_roles'
+
+  - user: E34
+    username: 'qa_roles'
+    groups: 'E34'
+    uwAuthLevel: '04'
+    billingAuthLevel: '01'
+    password: 'qa_roles'
+
+  - user: F35
+    username: 'qa_roles'
+    groups: 'F35'
+    uwAuthLevel: '01'
+    billingAuthLevel: ''
+    password: 'qa_roles'
+
+  - user: G36
+    username: 'qa_roles'
+    groups: 'G36'
+    uwAuthLevel: '00'
+    billingAuthLevel: ''
+    password: 'qa_roles'
+
+  - user: Q46
+    username: 'qa_roles'
+    groups: 'Q46'
+    uwAuthLevel: '04'
+    billingAuthLevel: '05'
+    password: 'qa_roles'
+
+  - user: L41
+    username: 'qa_roles'
+    groups: 'L41'
+    uwAuthLevel: '04'
+    billingAuthLevel: '04'
+    password: 'qa_roles'
+
+  - user: U50
+    username: 'qa_roles'
+    groups: 'L41'
+    uwAuthLevel: '04'
+    billingAuthLevel: '05'
+    password: 'qa_roles'
+
+  - user: BF2
+    username: 'grabill'
+    groups: 'L41'
+    uwAuthLevel: '04'
+    billingAuthLevel: '04'
+    password: grabill
+
+  - user: O44
+    username: gkfevan
+    groups: L41
+    uwAuthLevel: '04'
+    billingAuthLevel: '05'
+    password: gkfevan
+
+  - user: R47
+    username: 'qa_roles'
+    groups: R47
+    password: 'qa_roles'

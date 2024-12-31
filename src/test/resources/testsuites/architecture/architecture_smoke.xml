@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Architecture Smoke" verbose="1" parallel="tests">
+
+    <test name="Test About Us" parallel="methods">
+        <classes>
+            <class name="com.healthedge.smoke.TestHomePage">
+                <methods>
+                    <include name="testAboutUs"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test Contact Us" parallel="methods">
+        <classes>
+            <class name="com.healthedge.smoke.TestContactUs">
+                <methods>
+                    <include name="testContactUs"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test Home Page" parallel="methods">
+       <classes>
+            <class name="com.healthedge.smoke.TestHomePage">
+                <methods>
+                    <include name="testHomePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
