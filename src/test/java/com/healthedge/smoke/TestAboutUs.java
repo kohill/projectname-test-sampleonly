@@ -8,7 +8,7 @@ import static com.healthedge.verification.CustomAssertions.assertThat;
 public class TestAboutUs extends BaseTest{
 
     @Test
-    public void testABoutUs() {
+    public void testAboutUs() {
 
     }
 }
