@@ -3,7 +3,7 @@
 
     <test name="Test About Us" parallel="methods">
         <classes>
-            <class name="com.healthedge.smoke.TestHomePage">
+            <class name="com.companyname.smoke.TestHomePage">
                 <methods>
                     <include name="testAboutUs"/>
                 </methods>
@@ -13,7 +13,7 @@
 
     <test name="Test Contact Us" parallel="methods">
         <classes>
-            <class name="com.healthedge.smoke.TestContactUs">
+            <class name="com.companyname.smoke.TestContactUs">
                 <methods>
                     <include name="testContactUs"/>
                 </methods>
@@ -23,7 +23,7 @@
 
     <test name="Test Home Page" parallel="methods">
        <classes>
-            <class name="com.healthedge.smoke.TestHomePage">
+            <class name="com.companyname.smoke.TestHomePage">
                 <methods>
                     <include name="testHomePage"/>
                 </methods>

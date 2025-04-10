@@ -3,9 +3,9 @@
 
     <test name="Smoke Tests">
         <classes>
-            <class name="com.healthedge.smoke.TestAboutUs"/>
-            <class name="com.healthedge.smoke.TestContactUs"/>
-            <class name="com.healthedge.smoke.TestHomePage"/>
+            <class name="com.companyname.smoke.TestAboutUs"/>
+            <class name="com.companyname.smoke.TestContactUs"/>
+            <class name="com.companyname.smoke.TestHomePage"/>
         </classes>
     </test>
 </suite>
